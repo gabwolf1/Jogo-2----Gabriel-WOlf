@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Busca pelo Artefato Lendário - Gabriel WOlf</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario1.jpg" alt="Florestas de Eldoria">
+            <p>Em uma terra envolta em mistérios e magia, você, um destemido explorador, se encontra perdido nas florestas de Eldoria. O seu objetivo é encontrar o lendário Artefato das Estrelas, que é dito ter o poder de transformar a realidade. Qual caminho você escolherá para iniciar sua busca?</p>
+            <button class="btn-proximo" data-proximo="1">Investigar a Floresta das Sombras</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a Torre do Mago</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao adentrar a Floresta das Sombras, você encontra vestígios de uma antiga civilização e uma mensagem enigmática indicando que o próximo passo é seguir para um lugar conhecido como o Pico das Tempestades.</p>
+            <button class="btn-proximo" data-proximo="3">Rumo ao Pico das Tempestades</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para o vilarejo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Torre do Mago, você descobre um livro antigo que menciona uma pista crucial escondida nas Montanhas de Fogo. Você precisa decidir se vai atrás dessa pista ou explorar outros caminhos.</p>
+            <button class="btn-proximo" data-proximo="5">Viajar para as Montanhas de Fogo</button>
+            <button class="btn-proximo" data-proximo="6">Visitar o Mercado Místico da cidade</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Pico das Tempestades, uma tempestade revela uma caverna secreta que contém um portal mágico para um reino perdido.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal para o reino perdido</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario2.jpg" alt="Desistindo da aventura">
+            <p>Você decide que a busca pelo Artefato das Estrelas é muito arriscada e retorna ao vilarejo. Embora não tenha encontrado o artefato, você aprende mais sobre o mundo ao seu redor.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Nas Montanhas de Fogo, você encontra um artefato antigo que revela a localização do portal para o reino perdido. Este artefato pode ser a chave para encontrar o lendário Artefato das Estrelas.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar no portal para o reino perdido</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Explorando o Mercado Místico, você encontra um velho sábio que lhe dá informações valiosas sobre o caminho para o reino perdido. Armado com esse novo conhecimento, você decide seguir em frente.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o reino perdido</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>No reino perdido, você encontra uma bifurcação de caminhos mágicos. Um leva à Floresta Encantada e o outro à Caverna dos Dragões, ambos conhecidos por esconder segredos importantes.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para a Floresta Encantada</button>
+            <button class="btn-proximo" data-proximo="10">Explorar a Caverna dos Dragões</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Retornando ao vilarejo, você reflete sobre sua jornada e se prepara para novas aventuras, tendo aprendido valiosas lições sobre coragem e sabedoria.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>A Floresta Encantada leva você a uma clareira mágica onde um antigo templo esconde a entrada para o reino perdido e o Artefato das Estrelas.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o templo e buscar o Artefato das Estrelas</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>A Caverna dos Dragões revela um labirinto cheio de desafios, mas você encontra um mapa que mostra a localização do templo onde o Artefato das Estrelas está escondido.</p>
+            <button class="btn-proximo" data-proximo="12">Seguir o mapa para o templo do Artefato das Estrelas</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="Encontrando o Artefato das Estrelas">
+            <p>Você encontrou o templo escondido e o Artefato das Estrelas! Com o artefato em mãos, você tem o poder de moldar a realidade e decide usá-lo para trazer equilíbrio e prosperidade ao mundo.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Seguindo o mapa, você chega ao templo do Artefato das Estrelas. O artefato está guardado em um local sagrado, aguardando um herói digno para reivindicá-lo.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o templo e buscar o Artefato das Estrelas</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
